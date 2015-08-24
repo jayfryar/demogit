@@ -8,3 +8,5 @@ stuff to put in readme.txt
 
 
 1853 yet another change.    last time I had a vim screen upon commit
+
+1856  using -m for commit message so no vim screen
