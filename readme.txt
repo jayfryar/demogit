@@ -5,3 +5,6 @@ stuff to put in readme.txt
 
 
 1842 edit it again and then do git status to see what happens
+
+
+1853 yet another change.    last time I had a vim screen upon commit
