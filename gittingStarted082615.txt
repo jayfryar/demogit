@@ -1,0 +1,17 @@
+
+
+my cygwin 86 did not have git.
+
+I could not get setup to run from another server and it died saying something about not finding setup.ini.
+
+
+$ uname -a
+CYGWIN_NT-6.1 Owner-PC 2.2.1(0.289/5/3) 2015-08-20 11:42 x86_64 Cygwin
+
+I had git but I do not have my python there so I decided to install git on laptop.
+
+
+
+"C:\Program Files\Git\git-bash.exe" --cd-to-home
+
+
