@@ -1,0 +1,181 @@
+    1  uname -a
+    2  help
+    3  ll
+    4  alias
+    5  pwd
+    6  la
+    7  ls -a
+    8  ls -a | more
+    9  ls -al
+   10  du
+   11  pwd
+   12  pwd
+   13  ls
+   14  cd c:
+   15  cd Program\ Files
+   16  pwd
+   17  ll
+   18  cd Git
+   19  ls
+   20  which gcc
+   21  which python
+   22  cd /usr
+   23  ll
+   24  cd bin
+   25  ll
+   26  pwd
+   27  ls py*
+   28  cd
+   29  pwd
+   30  vim junk.txt
+   31  ll
+   32  cd c:
+   33  ls
+   34  cd Program \Files
+   35  cd Program\ Files
+   36  ls
+   37  cd Git
+   38  ls
+   39  ls bin
+   40  ls usr
+   41  ls usr/bin
+   42  ls
+   43  pwd
+   44  ls usr/bin
+   45  ls
+   46  ls mingw64/
+   47  uname -a
+   49  mkdir gitdemo
+   50  cd gitdemo
+   51  git init
+   52  ls
+   53  la
+   54  ls -la
+   55  get init
+   56  history
+   57  git init
+   58  ls
+   59  ls -la
+   60  pwd
+   61  vim readme.txt
+   62  git status
+   63  git add readme.txt 
+   64  git status
+   65  ls
+   66  pwd
+   67  vim readme.txt
+   68  git status
+   69  git add readme.txt 
+   70  git status
+   71  git commit
+   72  git config --global user.email "jay.fryar2012@gmail.com"
+   73  git config --global user.name "Jay Fryar"
+   74  git commit
+   75  git status
+   76  vim readme.txt
+   77  git status
+   78  git status add
+   79  git status
+   80  git add
+   81  vim readme.txt
+   82  git add comm
+   83  git commit 
+   84  git add readme.txt 
+   85  git commit 
+   86  git status
+   87  vim readme.txt
+   88  git status
+   89  git add readme.txt 
+   90  git status
+   91  git add readme.txt 
+   92  git status
+   93  git commit -m "1901 adding comment from command line"
+   94  git log
+   95  git status
+   96  ls
+   97  pwd
+   98  touch blahblah.html
+   99  echo "1904 change to readme.txt" >> readme.txt 
+  100  more readme.txt 
+  101  less readme.txt 
+  102  git status
+  103  git add .
+  104  git status
+  105  touch newlogfile.log
+  106  touch newerlogfile.log
+  107  git status
+  108  touch .gitignore
+  109  vim .gitignore
+  110  git status
+  111  git add .
+  112  git status
+  113  ls
+  114  git commit -m 'add blahblah.html and should not put in log since I just created .gitignore with *.log as entry'
+  115  git status
+  116  git log
+  117  git branch MyBranch
+  118  git status
+  119  git log
+  120  git checkout MyBranch
+  121  git status
+  122  touch index.css
+  123  echo "1919 change to readme.txt" >> readme.txt 
+  124  git add . 
+  125  git status
+  126  git commit -m "new updates  adding index.css and 1919 change on readme.txt"
+  127  git status
+  128  ls
+  129  pwd
+  130  ls
+  131  git checkout master 
+  132  ls
+  133  git status 
+  134  git merge MyBranch 
+  135  ls
+  136  more readme.txt 
+  137  less readme.txt 
+  138  vim readme.txt 
+  139  vim readme.txt 
+  140  git commit -a -m "change six"
+  141  git checkout MyBranch 
+  142  vim readme.txt 
+  143  git commit -a -m "change seven"
+  144  git merge master 
+  145  vim readme.txt 
+  146  git commit -a -m "changed merge problem"  
+  147  git status
+  148  vim readme.txt 
+  149  git checkout master 
+  150  vim readme.txt 
+  151  git checkout MyBranch 
+  152  vim readme.txt 
+  153  git mergetool
+  154  touch newfile.txt
+  155  git checkout master 
+  156  git status
+  157  git checkout MyBranch 
+  158  git add .
+  159  git status
+  160  git stash
+  161  git status
+  162  git status
+  163  git stash apply
+  164  git remote
+  165  git clone https://github.com/dustindavis/FluentGuard.git
+  166  ls
+  167  cd FluentGuard/
+  168  git remote
+  169  git remote -v
+  170  git fetch origin
+  171  get pull origin
+  172  git pull origin
+  173  git commit -a -m 'readme changes'
+  174  git push origin master
+  175  history
+  176  ls
+  177  cd ..
+  178  ls
+  179  ls
+  180  cd ..
+  181  ls
+  182  history > firstGIThistory.txt
