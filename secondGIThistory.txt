@@ -1,0 +1,331 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  uname -a
+    5  exit
+    6  uname -a
+    7  help
+    8  ll
+    9  alias
+   10  pwd
+   11  la
+   12  ls -a
+   13  ls -a | more
+   14  ls -al
+   15  du
+   16  pwd
+   17  pwd
+   18  ls
+   19  cd c:
+   20  cd Program\ Files
+   21  pwd
+   22  ll
+   23  cd Git
+   24  ls
+   25  which gcc
+   26  which python
+   27  cd /usr
+   28  ll
+   29  cd bin
+   30  ll
+   31  pwd
+   32  ls py*
+   33  cd
+   34  pwd
+   35  vim junk.txt
+   36  ll
+   37  cd c:
+   38  ls
+   39  cd Program \Files
+   40  cd Program\ Files
+   41  ls
+   42  cd Git
+   43  ls
+   44  ls bin
+   45  ls usr
+   46  ls usr/bin
+   47  ls
+   48  pwd
+   49  ls usr/bin
+   50  ls
+   51  ls mingw64/
+   52  uname -a
+   53  well god damn
+   54  mkdir gitdemo
+   55  cd gitdemo
+   56  git init
+   57  ls
+   58  la
+   59  ls -la
+   60  get init
+   61  history
+   62  git init
+   63  ls
+   64  ls -la
+   65  pwd
+   66  vim readme.txt
+   67  git status
+   68  git add readme.txt 
+   69  git status
+   70  ls
+   71  pwd
+   72  vim readme.txt
+   73  git status
+   74  git add readme.txt 
+   75  git status
+   76  git commit
+   77  git config --global user.email "jay.fryar2012@gmail.com"
+   78  git config --global user.name "Jay Fryar"
+   79  git commit
+   80  git status
+   81  vim readme.txt
+   82  git status
+   83  git status add
+   84  git status
+   85  git add
+   86  vim readme.txt
+   87  git add comm
+   88  git commit 
+   89  git add readme.txt 
+   90  git commit 
+   91  git status
+   92  vim readme.txt
+   93  git status
+   94  git add readme.txt 
+   95  git status
+   96  git add readme.txt 
+   97  git status
+   98  git commit -m "1901 adding comment from command line"
+   99  git log
+  100  git status
+  101  ls
+  102  pwd
+  103  touch blahblah.html
+  104  echo "1904 change to readme.txt" >> readme.txt 
+  105  more readme.txt 
+  106  less readme.txt 
+  107  git status
+  108  git add .
+  109  git status
+  110  touch newlogfile.log
+  111  touch newerlogfile.log
+  112  git status
+  113  touch .gitignore
+  114  vim .gitignore
+  115  git status
+  116  git add .
+  117  git status
+  118  ls
+  119  git commit -m 'add blahblah.html and should not put in log since I just created .gitignore with *.log as entry'
+  120  git status
+  121  git log
+  122  git branch MyBranch
+  123  git status
+  124  git log
+  125  git checkout MyBranch
+  126  git status
+  127  touch index.css
+  128  echo "1919 change to readme.txt" >> readme.txt 
+  129  git add . 
+  130  git status
+  131  git commit -m "new updates  adding index.css and 1919 change on readme.txt"
+  132  git status
+  133  ls
+  134  pwd
+  135  ls
+  136  git checkout master 
+  137  ls
+  138  git status 
+  139  git merge MyBranch 
+  140  ls
+  141  more readme.txt 
+  142  less readme.txt 
+  143  vim readme.txt 
+  144  vim readme.txt 
+  145  git commit -a -m "change six"
+  146  git checkout MyBranch 
+  147  vim readme.txt 
+  148  git commit -a -m "change seven"
+  149  git merge master 
+  150  vim readme.txt 
+  151  git commit -a -m "changed merge problem"  
+  152  git status
+  153  vim readme.txt 
+  154  git checkout master 
+  155  vim readme.txt 
+  156  git checkout MyBranch 
+  157  vim readme.txt 
+  158  git mergetool
+  159  touch newfile.txt
+  160  git checkout master 
+  161  git status
+  162  git checkout MyBranch 
+  163  git add .
+  164  git status
+  165  git stash
+  166  git status
+  167  git status
+  168  git stash apply
+  169  git remote
+  170  git clone https://github.com/dustindavis/FluentGuard.git
+  171  ls
+  172  cd FluentGuard/
+  173  git remote
+  174  git remote -v
+  175  git fetch origin
+  176  get pull origin
+  177  git pull origin
+  178  git commit -a -m 'readme changes'
+  179  git push origin master
+  180  history
+  181  ls
+  182  cd ..
+  183  ls
+  184  ls
+  185  cd ..
+  186  ls
+  187  history > firstGIThistory.txt
+  188  more firstGIThistory.txt 
+  189  vim firstGIThistory.txt 
+  190  pwd
+  191  ls
+  192  git --help
+  193  git clone https://github.com/yasoob/intermediatePython
+  194  ls
+  195  cd intermediatePython/
+  196  ls
+  197  less Makefile 
+  198  Makefile
+  199  ./Makefile
+  200  more README.md 
+  201  less README.md 
+  202  ll
+  203  vim index.rst 
+  204  docutils
+  205  docutils
+  206  ls
+  207  cd ..
+  208  ll
+  209  la
+  210  ls -la
+  211  cd ..
+  212  cd GIT
+  213  cd intermediatePython/
+  214  ls -a
+  215  cd .git
+  216  ls
+  217  pwd
+  218  cd ..
+  219  ls
+  220  pwd
+  221  cd ..
+  222  rm intermediatePython/
+  223  rmdir intermediatePython/
+  224  rmdir -R intermediatePython/
+  225  man rmdir
+  226  rmdir --help
+  227  rmdir -p intermediatePython/
+  228  ls
+  229  rm -rf intermediatePython/
+  230  ls
+  231  pwd
+  232  cd gitdemo
+  233  ls
+  234  git --help
+  235  ls
+  236  ls ..
+  237  vim ../firstGIThistory.txt 
+  238  git -v
+  239  git --help
+  240  ls
+  241  git checkout master 
+  242  ls
+  243  less readme.txt 
+  244  git remote
+  245  git --help
+  246  git status
+  247  git remote add origin https://github.com/jayfryar/demogit
+  248  git remote add origin https://github.com/jayfryar/demogit
+  249  git status
+  250  history
+  251  ls
+  252  ls ..
+  253  less ../firstGIThistory.txt 
+  254  git remote -v
+  255  git --help
+  256  ls
+  257  git push origin index.css
+  258  ls
+  259  vim ../firstGIThistory.txt 
+  260  git remote
+  261  git remote -v
+  262  git remote show origin
+  263  git push origin master
+  264  git push origin master
+  265  pwd
+  266  touch 082515202.txt
+  267  git add 082515202.txt 
+  268  ls
+  269  git status
+  270  git commit .
+  271  git status
+  272  git push origin master
+  273  which pip
+  274  man pip
+  275  ls /usr
+  276  ll /usr
+  277  chmod 775 /usr/lib
+  278  chmod 775 /usr/bin
+  279  ll /usr
+  280  which wget
+  281  ls
+  282  clear
+  283  cd ..
+  284  cd gitdemo
+  285  ls
+  286  cd /
+  287  ls
+  288  cd bin
+  289  ls
+  290  ls | grep setup
+  291  uname -a
+  292  mingw-get install msys-wget-bin
+  293  .mingw-get install msys-wget-bin
+  294  pwd
+  295  ./mingw-get install msys-wget-bin
+  296  ls m*
+  297  ls mi*
+  298  ls
+  299  pwd
+  300  pwd
+  301  cd
+  302  pwd
+  303  pwd
+  304  ls
+  305  pwd
+  306  ls
+  307  alias
+  308  cd
+  309  pwd
+  310  cd d
+  311  cd /
+  312  ls
+  313  pwd
+  314  cd
+  315  pwd
+  316  ls
+  317  cd /
+  318  ls
+  319  whoami
+  320  cd gitdemo
+  321  ls
+  322  history
+  323  pwd
+  324  pwd
+  325  ls
+  326  history
+  327  pwd
+  328  ls ..
+  329  cd ..
+  330  ls
+  331  history >> secondGIThistory.txt
